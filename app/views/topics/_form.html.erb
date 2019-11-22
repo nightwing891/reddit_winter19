@@ -1,0 +1,5 @@
+<h1><%= @topic.id ? 'Editing a Topic' : 'Creating Topic' %></h1>
+
+<%= form_for [@sub, @topic] do |f| %>
+  <!-- rest of form inputs for topic goes here -->
+<% end %>
